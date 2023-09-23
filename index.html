@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>Calculator</title>
+		<style>
+			table {
+				border: solid white 1px;
+				width: 500px;
+			}
+			table td {
+				font-size: 50px;
+				text-align: center;
+				width: 25%;
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+			body {
+				background-color: black;
+				color: white;
+				padding: 50px;
+				font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+			}
+			#display {
+				text-align: right;
+				padding-right: 10px;
+				padding-top: 40px;
+				padding-bottom: 40px;
+				font-size: 90px;
+				border-bottom: 1px solid gray;
+			}
+			.btn {
+				border-radius: 90px;
+				border: 1px gray solid;
+			}
+		</style>
+	</head>
+	<body>
+		<table id="calculator" cellspacing="15">
+			<tr>
+				<td colspan="4" id="display">0</td>
+			</tr>
+			<tr>
+				<td class="btn">AC</td>
+				<td class="btn">🔙</td>
+				<td class="btn">%</td>
+				<td class="btn">-</td>
+			</tr>
+			<tr>
+				<td class="btn">9</td>
+				<td class="btn">8</td>
+				<td class="btn">7</td>
+				<td class="btn">x</td>
+			</tr>
+			<tr>
+				<td class="btn">6</td>
+				<td class="btn">5</td>
+				<td class="btn">4</td>
+				<td class="btn">/</td>
+			</tr>
+			<tr>
+				<td class="btn">3</td>
+				<td class="btn">2</td>
+				<td class="btn">1</td>
+				<td class="btn">+</td>
+			</tr>
+			<tr>
+				<td class="btn">0</td>
+				<td class="btn">.</td>
+				<td class="btn" colspan="2">=</td>
+			</tr>
+		</table>
+	</body>
+	<script src="app.js"></script>
+</html>
